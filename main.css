@@ -76,11 +76,25 @@ nav-bar
     grid-template-columns: repeat(3,1fr);
 } */
 .hero{
+/*     height: 100vh;
+    background: linear-gradient(rgba(59,59,59,0.5),rgba(253,187,45,0.2)), url(./images/pexels-lukas-1352243.jpg) center/cover fixed no-repeat;
+    display: grid;
+    justify-content: center;
+    align-items: center; */
+  background: var(--clr-primary);
     height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:798px) {
+    .hero{
+        height: 100vh;
     background: linear-gradient(rgba(59,59,59,0.5),rgba(253,187,45,0.2)), url(./images/pexels-lukas-1352243.jpg) center/cover fixed no-repeat;
     display: grid;
     justify-content: center;
     align-items: center;
+    }
 }
 
 span{
