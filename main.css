@@ -83,19 +83,25 @@ nav-bar
     /* justify-items: center; */
     padding: 1rem 0;
 }
+
 .logo{
     color: #fff;
-    font-size: 2rem;
     padding: 0 1rem;
     text-transform: uppercase;
 }
 .nav-bar ul{
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.nav-bar ul li{
+    margin-top: 0.2rem;
 }
 
 ul li a{
-    padding: 1rem;
+    padding: 0.5rem;
     text-transform: capitalize;
 }
 
@@ -213,7 +219,7 @@ span{
     text-transform: capitalize;
     text-align: center;
     margin: 2rem 0;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 
@@ -299,9 +305,9 @@ span{
 .footer-content ul{
     justify-content: space-between;
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
-@media screen and (min-width:798px) {
+@media screen and (min-width:500px) {
     .hero{
         height: 100vh;
     background: linear-gradient(rgba(59,59,59,0.5),rgba(253,187,45,0.2)), url(./images/pexels-lukas-1352243.jpg) center/cover fixed no-repeat;
@@ -309,4 +315,13 @@ span{
     justify-content: center;
     align-items: center;
     }
+    .container p{
+        font-size: 2rem;
+    }
+    .nav-bar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+}
 }
