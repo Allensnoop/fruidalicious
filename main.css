@@ -264,7 +264,15 @@ span{
     height: 15rem;
     object-fit:cover;
 }
-
+.buy{
+    position: absolute;
+    bottom: 0;
+    color: var(--clr-primary);
+    padding: 0 10px;
+}
+.buy a {
+    color: #678e3e;
+}
 .price{
     position: absolute;
     right: 0;
@@ -275,12 +283,12 @@ span{
 
 .product-info h4{
     color:var(--clr-primary);
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.rem;
     text-transform: uppercase;
 }
 .product-info p{
     color:var(--clr-grey-1);
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
     text-transform: capitalize;
 }
 
@@ -324,4 +332,55 @@ span{
     align-items: center;
     padding-right: 2rem;
 }
+}
+
+/*
+=============== 
+about us
+===============
+*/
+
+/* .tiles {
+    padding: 4rem 0;
+}
+
+.tile-center{
+    width:90vw;
+    max-width: 1170px;
+    margin: 2rem auto;
+    display: grid;
+    grid-row-gap: 2rem;
+}
+
+@media screen and (min-width:768px){
+    .tile-center{
+        grid-template-columns: 1fr  1fr;
+        grid-column-gap: 2rem;
+    }
+
+    
+} */
+
+
+#about{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    /* margin: 2rem 0; */
+}
+.content-container{
+    height: 90vh;
+    display: grid;
+    align-items: center;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+.content-center{
+    text-transform:capitalize ;
+    padding: 1rem;
+    /* text-align: center; */
+}
+.content-center p{
+    font-size: 1.2rem;
 }
